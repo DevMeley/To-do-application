@@ -1,6 +1,6 @@
 const myInput = document.getElementById("myInput")
 const myCancelbtn = document.getElementById("myCancelbtn")
-const myAddButton = document.getElementsByClassName("myAddButton")[0]
+const myAddButton = document.querySelector(".myAddButton")
 const myList = document.getElementById("myList")
 
 
@@ -12,8 +12,9 @@ myAddButton.addEventListener('click' , event => {
         const li = document.createElement("li")
         li.innerHTML = myInput.value
         myList.append(li)
+        myInput.value = ''
     }
 
 })
 
-myInput.value === ''
+
