@@ -64,3 +64,24 @@ ul li{
     margin-left: 20px;
     margin-bottom: 10px;
 }
+
+@media screen and (max-width:520px) {
+    input{
+        height: 40px;
+        width: 200px;
+        padding: 10px;
+        border-radius: 20px;
+        border: 1px solid gray;
+    }
+    section{
+        background-color: wheat;
+        padding: 10px;
+        border-radius: 20px;
+        width: 300px;
+    }   
+    .wrap{
+        width:250px;
+        overflow-wrap: break-word;
+        word-wrap: break-word;
+    }
+}
