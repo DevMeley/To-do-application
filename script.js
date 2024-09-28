@@ -10,7 +10,7 @@ myAddButton.addEventListener('click' , event => {
     }
     else{
         const li = document.createElement("li")
-        li.innerHTML = myInput.value
+        li.textContent = myInput.value
         myList.append(li)
         myInput.value = ''
     }
