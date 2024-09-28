@@ -11,6 +11,7 @@ myAddButton.addEventListener('click' , event => {
     else{
         let li = document.createElement("li")
         li.textContent = myInput.value
+        myList.append(li)
 
         li.addEventListener('click', event =>{
 
@@ -18,7 +19,6 @@ myAddButton.addEventListener('click' , event => {
         })
         
 
-        myList.append(li)
         myInput.value = ''
        
     }
