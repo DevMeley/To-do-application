@@ -9,12 +9,21 @@ myAddButton.addEventListener('click' , event => {
         alert("You have to make a list")
     }
     else{
-        const li = document.createElement("li")
+        let li = document.createElement("li")
         li.textContent = myInput.value
+
+        li.addEventListener('click', event =>{
+
+            li.style.textDecoration = "line-through"
+        })
+        
+
         myList.append(li)
         myInput.value = ''
+       
     }
 
 })
+
 
 
