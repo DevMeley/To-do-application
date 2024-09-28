@@ -14,7 +14,7 @@ body{
 }
 
 section{
-    background-color: wheat;
+    background-color: rgb(243, 225, 192);
     padding: 20px;
     border-radius: 20px;
 }
@@ -74,7 +74,7 @@ ul li{
         border: 1px solid gray;
     }
     section{
-        background-color: wheat;
+        background-color: rgb(243, 225, 192);
         padding: 10px;
         border-radius: 20px;
         width: 300px;
